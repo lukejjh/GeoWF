@@ -1,4 +1,6 @@
 # GeoWF
+> :warning: **Disclaimer:** Don't ever expose RDP (or anything like it) directly to the internet. It was simpler times when I first wrote this.
+
 GeoWF (**Geo**IP **W**indows **F**irewall) is a PowerShell script which can modify accepted remote address ranges on inbound Windows Firewall rules using MaxMind's GeoIP (GeoLite2) databases, allowing Windows Firewall to function as a poor man's firewall with geoblocking.
 
 ## Demonstration
